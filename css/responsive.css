@@ -1,0 +1,189 @@
+
+@media (min-width:992px) and (max-width:1199.98px) {
+    /* left and right icon in website  */
+    .icon.fa-chevron-left {
+        left: 44%;
+    }
+    .icon.fa-chevron-right {
+        right: 44%;
+    }
+
+    /* catagory for new style */
+    #catagory .catagory_item .overlay {
+        padding: 8px 68px;
+    }
+
+    /* offer for new style */
+    #offer .offer_item_content h2 {
+        font-size: 35px;
+    }
+    #offer .offer_item_content p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    /* topheader section css part */
+    #topheader ul li {
+        padding: 16px 13px;
+    }
+     /* left and right icon in website  */
+     .icon.fa-chevron-left {
+        left: 44%;
+    }
+    .icon.fa-chevron-right {
+        right: 44%;
+    }
+    /* catagory section css */
+    #catagory .catagory_item .overlay {
+        padding: 10px 39px;
+    }
+    #catagory .catagory_item .overlay h2 {
+        font-size: 27px;
+    }
+    #catagory .catagory_item .overlay h3 {
+        font-size: 18px;
+    }
+    #catagory .catagory_item .overlay a {
+        font-size: 13px;
+    }
+    /* primary header css */
+    .primary_header h2 {
+        font-size: 37px;
+    }
+    /* offer section css  */
+    #offer .offer_item_content h3 {
+        margin-top: 20px;
+    }
+    
+}
+@media (min-width:576px) and (max-width:767.98px) {
+    /* topheader section css  */
+    #topheader ul li {
+        padding: 10px 5px;
+    }
+    #topheader a, #topheader .top_left_header ul li select ,#topheader p{
+        font-size: 10px;
+    }
+    /* banner section css */
+    #banner .slider .slider_item p {
+        font-size: 13px;
+    }
+    #banner .slider .slider_item h2 {
+        font-size: 66px;
+    }
+    #banner .slider .slider_item h3 {
+        font-size: 33px;
+    }
+    #banner .slider .slider_item a {
+        font-size: 11px;
+    }
+    .icon{
+        opacity: 0;
+        visibility: hidden;
+    }
+    #banner .slider .slider_item {
+        height: 500px;
+    }
+    /* catagory section css */
+    #catagory .catagory_item .overlay {
+        padding: 10px 51px;
+    }
+    /* facility section css */
+    #facility .facility_item .facility_header h2 {
+        font-size: 20px;
+    }
+    #facility .facility_item .facility_header i{
+        font-size: 28px;
+    }
+    #facility .facility_item .facility_content p {
+        font-size: 13px;
+    }
+    /* feature products css */
+    /* primary header section css */
+    .primary_header h2 {
+        font-size: 34px;
+    }
+    /* offer section css  */
+    #offer .offer_item_content h3 {
+        margin-top: 20px;
+    }
+    /* testmonial css part */
+    #testimonial .testimonial_item_part {
+        padding: 40px 0px 60px;;
+    }
+    /* blog section css */
+    #blog img{
+        width: 100%;
+    }
+}
+@media (max-width:575.98px) {
+    #topheader ul li {
+        padding: 12px 5px;
+    }    
+    #topheader a, #topheader .top_left_header ul li select ,#topheader p {
+        font-size: 10px;
+    }
+     /* banner section css */
+     #banner .slider .slider_item p {
+        font-size: 10px;
+    }
+    #banner .slider .slider_item h2 {
+        font-size: 50px;
+    }
+    #banner .slider .slider_item h3 {
+        font-size: 27px;
+    }
+    #banner .slider .slider_item a {
+        font-size: 9px;
+    }
+    .icon{
+        opacity: 0;
+        visibility: hidden;
+    }
+    #banner .slider .slider_item {
+        height: 400px;
+    }
+     /* facility section css */
+     #facility .facility_item .facility_header h2 {
+        font-size: 15px;
+    }
+    #facility .facility_item .facility_header i{
+        font-size: 22px;
+    }
+    #facility .facility_item .facility_content p {
+        font-size: 11px;
+    }
+    #catagory .catagory_item .overlay {
+        padding: 10px 31px;
+    }
+    #catagory .catagory_item .overlay h2 {
+        font-size: 23px;
+    }
+    #catagory .catagory_item .overlay h3 {
+        font-size: 15px;
+    }
+    #catagory .catagory_item .overlay a {
+        font-size: 11px;
+    }
+    /* primary header section css */
+    .primary_header h2 {
+        font-size: 24px;
+    }
+    #featuredProducts .featuredProducts_item_menu ul li {
+        font-size: 12px;
+        padding: 0px 9px;
+    }
+    #offer .offer_item_content h2 {
+        font-size: 29px;
+    }
+    #offer .offer_item_content h3 {
+        margin-top: 20px;
+    }
+    #offer .offer_item_content .clock .time span{
+        font-size: 15px;
+    }
+    #offer .offer_item_content .clock .time{
+        padding: 5px 10px;
+    }
+}

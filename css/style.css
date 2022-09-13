@@ -221,6 +221,8 @@ text-transform:none;
 .icon:hover{
     background:var(--primary_color);
     border: 1px solid var(--primary_color);
+    border-bottom: none;
+    cursor: pointer;
 }
 /* banner section css end */
 
@@ -333,6 +335,9 @@ text-transform:none;
 /* common header part of every section css end */
 
 /* featuredProducts section css Start */
+#featuredProducts {
+    margin-top: 80px;
+}
 #featuredProducts .featuredProducts_item_menu{
     margin: 40px 0px 20px;
 }
@@ -400,7 +405,7 @@ text-transform:none;
 
 /* offer section css start */
 #offer{
-    margin: 100px 0px 100px;
+    margin: 80px 0px 80px;
     background: var(--milk_white);
     padding: 45px 0px 45px;
 }
@@ -454,6 +459,9 @@ text-transform:none;
     border: 1px solid var(--dark_white);
     border-bottom: none;
     bottom: -80px;
+}
+#latestProducts .latestProducts_item_part .latestProducts_slider .icon:hover{
+    color: var(--white);
 }
 #latestProducts .latestProducts_item{
     width: 270px;
@@ -509,6 +517,9 @@ text-transform:none;
 
 
 /* testimonial section css start */
+#testimonial{
+    margin-top: 120px;
+}
 #testimonial .testimonial_item_part{
    background: url('../img/testimonialBg.png');
    position: relative;
@@ -516,7 +527,7 @@ text-transform:none;
    background-size: cover;
    z-index: 1;
    padding: 40px 0px 158px;
-   margin: 40px 0px 100px;
+   margin: 60px 0px 80px;
 } 
 #testimonial .testimonial_item_part::before{
     position: absolute;
@@ -550,9 +561,181 @@ text-transform:none;
     color: var(--gray-white);
     line-height: 1.5;
     font-size: 14px;
-    width: 90%;
 }
 #testimonial .testimonial_item_part .testimonial_item_content .testimonial_item_sign{
-    margin: 15px 0px 0px;
+    margin: 15px 3px 0px 0px;
 }
 /* testimonial section css end */
+
+/* blog section css start */
+#blog .blog_item_part{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+#blog .blog_item_part .blog_item .blog_item_thumb{
+    position: relative;
+}
+#blog .blog_item_part .blog_item .blog_item_thumb .overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    color: var(--gray-white);
+    font-weight: var(--open);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 23px;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--common-transition);
+}
+#blog .blog_item_part .blog_item:hover .blog_item_thumb .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+#blog .blog_item_part .blog_item .blog_item_thumb .overlay a{
+    color: var(--gray-white);
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--gray-white);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+}
+#blog .blog_item_part .blog_item .blog_item_thumb .overlay .social_activity{
+    position: absolute;
+    bottom: 10px;
+    width: calc( 100% - 46px);
+}
+#blog .blog_item_part .blog_item .blog_item_content h2{
+    font-family: var(--raleway);
+    font-weight: 500;
+    color: var(--dark_white);
+    font-size: 20px;
+    padding: 25px 0px 25px;
+}
+#blog .blog_item_part .blog_item .blog_item_content p{
+    font-family: var(--open);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--light-dark);
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+#blog .blog_item_part .blog_item .blog_item_content a{
+    font-size: 16px;
+    font-family: var(--raleway);
+    font-weight: 500;
+    color: var(--dark_white);
+    text-transform: uppercase;
+    transition: var(--common-transition);
+}
+#blog .blog_item_part .blog_item .blog_item_content a:hover{
+    color: var(--primary_color);
+}
+/* blog section css end */
+
+/* footer section css start */
+#footer{
+    background: #353535;
+    padding: 50px 0px 40px;
+}
+#footer .footer_item01 p{
+    margin-top: 25px;
+    color: var(--gray-white);
+    font-family: var(--open);
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 14px;
+}
+#footer .header h4{
+    font-family: var(--raleway);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+    padding:16px 0px 35px;
+    text-transform: uppercase;
+}
+#footer .footer_item02 .contact_part ul li a
+{
+    margin-bottom: 25px;
+    display: inline-block;
+    color: var(--gray-white);
+    font-family: var(--open);
+    font-size: 14px;
+    font-weight: 400;
+}
+#footer .footer_item02 .contact_part ul li i{
+    font-size: 14px;
+    color: var(--gray-white);
+    padding-right: 5px;
+}
+
+#footer .footer_item03 .footer_nav ul li a{
+    display: inline-block;
+    color: var(--gray-white);
+    font-family: var(--open);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    transition: var(--common-transition);
+}
+#footer .footer_item03 .footer_nav ul li a:hover{
+    padding-left: 7px;
+    color: var(--primary_color);
+}
+#footer .footer_item04 form input{
+    background: transparent;
+    border:1px solid var(--white);
+}
+#footer .footer_item04 form button{
+    background: var(--primary_color);
+    border: none;
+    color: white;
+    font-family: var(--raleway);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+#footer .footer_item04 .social_link{
+    width: 90%;
+}
+#footer .footer_item04 .social_link ul li a{
+    width: 40px;
+    height: 40px;
+    color: var(--white);
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    line-height: 40px;
+    text-align: center;
+    transition: var(--common-transition);
+    display: inline-block;
+}
+#footer .footer_item04 .social_link ul li a:hover{
+    border: 1px solid var(--primary_color);
+    background: var(--primary_color);
+}
+/* footer section css end */
+
+/* copyright section css end */
+#copyright{
+    background: #555555;
+    padding: 10px 0px 10px;
+    margin: 1px 0px ;
+}
+#copyright .copyright_sentence{
+    font-family: var(--open);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--white);
+}
+#copyright .copyright_sentence span{
+    color: var(--primary_color);
+}
+/* copyright section css end */
