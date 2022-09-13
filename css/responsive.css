@@ -186,4 +186,7 @@
     #offer .offer_item_content .clock .time{
         padding: 5px 10px;
     }
+    nav img{
+        width: 50%;
+    }
 }
