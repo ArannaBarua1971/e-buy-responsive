@@ -9,7 +9,7 @@ $(function () {
         prevArrow: '<i class="icon fas fa-chevron-left"></i>',
         nextArrow: '<i class="icon fas fa-chevron-right"></i>',
         autoplay: true,
-        speed: 500,
+        speed: 600,
         fade: true,
     })
 
@@ -28,7 +28,7 @@ $(function () {
         prevArrow: '<i class="icon fas fa-chevron-left"></i>',
         nextArrow: '<i class="icon fas fa-chevron-right"></i>',
         autoplay: true,
-        speed: 500,
+        speed: 600,
         slidesToScroll: 2,
         slidesToShow: 4,
         loop: true,
@@ -54,8 +54,8 @@ $(function () {
     $('.testimonial_slider').slick({
         prevArrow: '<i class="icon fas fa-chevron-left"></i>',
         nextArrow: '<i class="icon fas fa-chevron-right"></i>',
-        // autoplay: true,
-        speed: 400,
+        autoplay: true,
+        speed: 600,
         slidesToScroll: 2,
         slidesToShow: 2,
         loop: true,
@@ -73,3 +73,4 @@ $(function () {
     })
 
 })
+new VenoBox();

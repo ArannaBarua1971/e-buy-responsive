@@ -129,6 +129,7 @@ text-transform:none;
     display: none;
     position: absolute;
     top: 100%;
+    z-index: 99;
 }
 #navigation .search_cart .search_btn{
     background: none;
@@ -271,6 +272,7 @@ text-transform:none;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 #catagory .catagory_item .overlay{
     position: absolute;
@@ -302,6 +304,17 @@ text-transform:none;
 #catagory .catagory_item .overlay a:hover{
     background: var(--primary_color);
     border: 1px solid var(--primary_color);
+}
+#catagory .catagory_item .tag_of_new{
+    color: var(--primary_color);
+    background: var(--white);
+    font-size: 17px;
+    position: absolute;
+    top: -160px;
+    transform: rotate(-45deg);
+    width: 80%;
+    text-align: center;
+    left: -100px;
 }
 /* catagory section css end */
 
