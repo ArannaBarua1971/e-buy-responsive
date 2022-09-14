@@ -3,7 +3,16 @@ $(function () {
     $('.search_btn').on('click', function () {
         $('.search').toggle()
     })
-
+    // fixed navigation
+    $(window).on('scroll',function(){
+        var scrollPosition=$(window).scrollTop()
+        if(scrollPosition >400){
+            $('#navigation').addClass('fixed')
+        }
+        else{
+            $('#navigation').removeClass('fixed')
+        }
+    })
     // banner slider
     $('.slider').slick({
         prevArrow: '<i class="icon fas fa-chevron-left"></i>',

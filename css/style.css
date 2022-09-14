@@ -142,6 +142,22 @@ text-transform:none;
     font-weight: 500;
     color: var(--primary_color);
 }
+.fixed{
+    width: 100%;
+    background: var(--white);
+    position: fixed;
+    animation: popup 0.7s linear;
+    z-index: 999;
+    top: 0px;
+}
+@keyframes popup {
+    0%{
+        top: -50px;
+    }
+    100%{
+        top:0px
+    }
+}
 /* navigation section css end */
 
 /* banner section css start */

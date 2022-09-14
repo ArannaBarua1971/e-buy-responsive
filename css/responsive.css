@@ -38,6 +38,10 @@
     .icon.fa-chevron-right {
         right: 44%;
     }
+    /* banner section css */
+    #banner .slider .slider_item {
+        height: 500px;
+    }
     /* catagory section css */
     #catagory .catagory_item .overlay {
         padding: 10px 39px;
