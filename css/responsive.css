@@ -188,6 +188,9 @@
         width: 111%;
         left: -136px;
     }
+    #catagory .catagory_item .overlay {
+        padding: 10px 63px;
+    }
     /* primary header section css */
     .primary_header h2 {
         font-size: 27px;
